@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">neuralPruning</string>
+    <string name="app_title">Neural Pruning</string>
+    <string name="email_label">Email</string>
+    <string name="password_label">Password</string>
+    <string name="sing_in_label">Sign in</string>
+    <string name="title_activity_drawe">drawe</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="facebook_app_id">425885465327622</string>
+    <string name="fb_login_protocol_scheme">fb425885465327622</string>
+
+</resources>

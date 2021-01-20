@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="170dp"
+    android:layout_margin="3dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/white"
+    app:cardElevation="16dp"
+    app:cardCornerRadius="16dp"
+    android:elevation="16dp"
+
+    >
+
+    <RelativeLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:id="@+id/courseImage"
+            android:layout_width="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_height="80dp"
+            />
+        <TextView
+            android:id="@+id/courseTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/courseImage"
+            android:textColor="@color/black"
+            android:text="Class 11- Maths"
+            android:textStyle="bold"
+            />
+        <LinearLayout
+            android:id="@+id/trainerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/courseTitle"
+            android:orientation="horizontal">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/trainerImage"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/trainerName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Madu"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:layout_below="@id/trainerLayout"
+            android:orientation="horizontal">
+           <TextView
+               android:id="@+id/likesText"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="wrap_content"
+               android:text="67"
+               />
+            <TextView
+                android:id="@+id/peopleText"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="67"
+                />
+            <TextView
+                android:id="@+id/coursePrice"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="67"
+                android:textColor="@color/purple_500"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

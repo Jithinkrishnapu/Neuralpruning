@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1062730123515",
+    "project_id": "neuralpruning-6c757",
+    "storage_bucket": "neuralpruning-6c757.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062730123515:android:fc5f6e26bd1214720a485e",
+        "android_client_info": {
+          "package_name": "com.example.neuralpruning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062730123515-kh3f63p7044b23otq242pgkaog09o3m9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.neuralpruning",
+            "certificate_hash": "71915d778111ac4c3df79a1fa3a3b24ac7cece48"
+          }
+        },
+        {
+          "client_id": "1062730123515-5k2pqs8linilava1eompcf25e99gll4k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp-Adk7JJVK6yA0ji___2Md4J9bRtB240"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062730123515-5k2pqs8linilava1eompcf25e99gll4k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
